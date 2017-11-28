@@ -11,6 +11,10 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+		--exclude "brew.sh" \
+		--exclude "bin" \
+		--exclude "Code" \
+		--exclude "init" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 	ln -s ~/.dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json
