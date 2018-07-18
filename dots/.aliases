@@ -26,8 +26,8 @@ alias status="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd
 eval "$(hub alias -s)"
 
 # Updates
-alias brew_update="cd downloads && ./brewery.sh"
 alias update_os='sudo softwareupdate -i -a'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
@@ -71,9 +71,6 @@ alias sudo='sudo '
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"

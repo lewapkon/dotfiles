@@ -46,6 +46,7 @@ brew cask install highsierramediakeyenabler
 brew cask install imageoptim
 brew cask install karabiner-elements
 brew cask install linein
+brew cask install bartender
 
 # Other
 brew cask install homebrew/cask-fonts/font-hack-nerd-font
