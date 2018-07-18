@@ -360,7 +360,7 @@ defaults write com.apple.dock persistent-apps -array ""
 _dockapps='Finder
 Google Chrome
 Spotify
-Hyper
+iTerm
 Visual Studio Code
 App Store
 Discord
@@ -501,6 +501,7 @@ defaults write com.apple.terminal StringEncodings -array 4
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 # Set custom prefs location for iTerm
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -int 1
 defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/dotfiles/iterm"
 
 ###############################################################################

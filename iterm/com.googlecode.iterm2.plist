@@ -280,7 +280,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>372 265 620 392 0 0 1360 746 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>53 281 796 473 0 0 2560 1418 </string>
+	<string>53 360 796 473 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>734 991 650 427 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -918,6 +918,8 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -944,21 +946,29 @@
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56363654136657715</real>
+				<real>0.84705882352941175</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.56485837697982788</real>
+				<real>0.5725490196078431</real>
 				<key>Red Component</key>
-				<real>0.50599193572998047</real>
+				<real>0.79607843137254897</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.19370138645172119</real>
+				<real>0.41960784313725491</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.15575926005840302</real>
+				<real>0.15686274509803921</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.40784313725490196</real>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
@@ -1091,7 +1101,7 @@
 	<key>iTerm Version</key>
 	<string>3.1.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>2</integer>
+	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>
