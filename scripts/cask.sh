@@ -8,6 +8,7 @@ brew cask install firefox
 # Development
 brew cask install visual-studio-code
 brew cask install hyper
+brew cask install iterm2
 brew cask install dash
 brew cask install postman
 brew cask install docker
